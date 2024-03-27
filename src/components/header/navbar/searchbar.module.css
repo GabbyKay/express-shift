@@ -1,0 +1,49 @@
+.searchBar {
+    position: relative;
+    right: 4rem;
+  }
+  
+  .searchIcon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+
+    padding: 8px;
+  }
+  
+  .inputContainer {
+    align-items: center;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
+  }
+  
+  .input {
+    position: relative;
+    top: -1.2rem;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+    padding: 4px;
+    width: 200px;
+  }
+  
+  .searchButton,
+  .closeButton {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+  }
+  
+  .searchButton {
+    margin-right: 4px;
+  }
+  
+  .closeButton {
+    color: #999;
+  }
+  

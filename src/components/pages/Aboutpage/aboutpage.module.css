@@ -1,0 +1,186 @@
+.Head{
+    position:relative;
+    z-index: 1;
+}
+
+.about_header{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relativ;
+}
+
+.about_header img{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 20%;
+}
+
+.about_text{
+    color: white;
+    width: 30%;
+    height: 15vh;
+    /* background-color: rgb(0, 179, 119); */
+    position: relative;
+    bottom: 30rem;
+    left: 4rem;
+    /* gap: 1rem; */
+    /* z-index: 1; */
+}
+
+.about_text h1{
+    position: relative;
+    right: 7.2rem;
+}
+
+
+.subheader{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.atext{
+    position: relative;
+    top: 0rem;
+    /* font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 0, 0); 
+    width: 100%;
+    height: 40vh; */
+    z-index: 1;
+}
+
+.head_img{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.head_img img{
+    width: 50%;
+}
+.txt{
+    position: relative;
+    gap: 0.6rem;
+    display: flex;
+    
+}
+
+.txt2{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    top: 0.5rem;
+}
+
+.txt2 p{
+    position: relative;
+    top: 2rem;
+    font-size: 15px;
+    text-align: justify;
+    width: 100%;
+}
+
+
+.container{
+    position: relative;
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    left: 0.5rem;
+}
+
+.img_box{
+    height: 60vh;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: relative;
+    top: 6rem;
+    box-shadow: 10px 10px 5px rgb(189, 189, 189);
+
+}
+
+.inner_img{
+    height: 30vh;
+    border-radius: 13px;
+    background-color: black;
+}
+
+.inner_img img{
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.inner_text{
+    position: relative;
+    right: 1rem;
+    /* top: 1rem; */
+}
+
+.inner_text p1{
+    /* color: aqua; */
+    position: relative;
+    top: 1rem;
+    font-size: small;
+    width: 80%;
+font-weight: 500;    left: 2.5rem;
+
+}
+
+.inner_text h2{
+    position: relative;
+    text-align: left;
+    right: 0rem;
+    width: 80%;
+    color: black;
+}
+
+.inner_text p{
+    position: relative;
+    top: 2rem;
+    width: 90%;
+    /* text-align: left; */
+    top: 0;
+    left: 2.5rem;
+    font-weight: 500;
+    font-size: 11px;
+}
+
+.mission{
+    position: relative;
+   justify-content: center;
+   left: 2rem;
+    width: 95%;
+    height: 37vh;
+    background-color: rgb(241,90,37);
+    color: whitesmoke;
+}
+
+.mission h1{
+    position: relative;
+    text-align: center;
+    top: 1rem;
+
+}
+
+.mission p{
+    position: relative;
+    top: 2rem;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+

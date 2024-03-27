@@ -1,0 +1,48 @@
+.Newsletter_2 h2{
+    width: 100%;
+    position: relative;
+    left: -5.5rem;
+    color: white;
+}
+
+.form {
+    position: relative;
+    left: -5rem;
+    top: 4.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  .label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: white;
+  }
+  
+  .input {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 1rem;
+  }
+  
+  .button {
+    background-color: rgb(241,90,37);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  

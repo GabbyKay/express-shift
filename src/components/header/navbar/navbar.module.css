@@ -1,0 +1,67 @@
+/* .navbar-nav > .nav-item:hover {
+  background-color: #f8f9fa;
+}
+.dropdown-menu {
+  background-color: #f8f9fa;
+  border: none;
+}
+.dropdown-menu > .dropdown-item:hover {
+  background-color: #dee2e6;
+} */
+
+.navbar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* right: 18rem; */
+    color: black;   
+}
+
+.ul{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  left: 2rem;
+  text-decoration: none;
+  list-style: none;
+  gap: 3rem;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: rgb(241,90,37)
+}
+
+
+.ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.ul li a.active{
+  color: rgb(241,90,37);
+}
+
+.right{
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: -0.5rem;
+  left: 24rem;
+  gap: 1.6rem;
+  font-size: 17px;
+}
+
+.cart_icon{
+  position: relative;
+  right: 4rem;
+}
+
+/* .search_bar_input_container{
+  position: relative;
+  right: 5rem;
+} */
+

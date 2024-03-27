@@ -1,0 +1,159 @@
+.tracking {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 20px;
+}
+
+.user_icon{
+  position: relative;
+  right: 10rem;
+  left: -3rem;
+  z-index: 1;
+  /* background-color: #008CBA; */
+}
+
+.formbg{
+  width: 70%;
+  height: 13vh;
+  left: 8rem;
+  top: 3.4rem;
+  border-radius: 10px;
+  background-color: rgb(250, 250, 250);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;  
+
+}
+
+.form1{
+  right: 2rem;
+  position: relative;
+}
+
+.form2{
+  position: relative;
+  left: 1.7rem;
+  /* right: 1rem; */
+  /* background-color: #005f6b; */
+}
+
+.formbg form{
+  position: relative;
+  top: 0.4rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  right: 3rem;
+
+}
+
+.tracking h1 {
+  color: white;
+  position: relative;
+  top: 4.2rem;
+  font-size: 30px;
+  width: 15%;
+  left: 4rem;
+  margin-bottom: 10px;
+  /* background-color: #008CBA; */
+}
+
+.tracking label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.tracking input[type="text"] {
+  padding: 10px;
+  border: 0.1px solid #ccc;
+  /* border-radius: 4px; */
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 110%;
+  box-sizing: border-box;
+  position: relative; 
+  margin-left: 3rem;
+}
+
+.tracking input[type="text"] :focus{
+  outline: none;
+  border: none;
+}
+
+input[type=text]:focus {
+  border: none;
+}
+
+
+.tracking ::placeholder{
+  position: relative;
+font-size: 10px;
+left: 2rem;
+}
+
+.tracking button[type="submit"] {
+  padding: 8px 18px;
+  position: relative;
+  left: 4.3rem;
+  top: -0.1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(117,117,117);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tracking button[type="submit"]:hover {
+  background-color: #005f6b;
+}
+
+.tracking .loading-spinner {
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.tracking .tracking-info {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.tracking .tracking-info h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.tracking .tracking-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tracking .tracking-info li {
+  margin-bottom: 10px;
+}

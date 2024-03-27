@@ -1,0 +1,96 @@
+.autoCounterSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .counterbg{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .counterbg img{
+    width: 100%;
+    height: 80vh;
+    opacity: 50%;
+
+  }
+
+.counterh2{
+    width: 80%;
+    color: white;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    left: 12rem;
+    top: -18rem;
+  }
+
+  .counterh2 h4{
+    position: relative;
+    left: 9rem;
+    bottom: 5rem;
+    width: 60%;
+    text-align: center;
+    /* background-color: antiquewhite; */
+  }
+
+  .counterh2 h2{
+    position: relative;
+    /* background-color: rgb(231, 143, 11); */
+    bottom: 13rem;
+    top: -4rem;
+    width: 80%;
+  }
+
+  .counterh2 p{
+    position: relative;
+    top: -3rem;
+    left: 9rem;
+    text-align: center;
+    width: 60%;
+
+  }
+
+  
+  .counters {
+    position: relative;
+    bottom: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .counter {
+    position: relative;
+    top: -3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    width: 18rem;
+    height: 8rem;
+    /* color: white; */
+    /* border-radius: 50%; */
+    background-color: #f15a25;
+  }
+  
+  .counter h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #efefef;
+  }
+  
+  .counter span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #efefef;
+  }
+  
+  

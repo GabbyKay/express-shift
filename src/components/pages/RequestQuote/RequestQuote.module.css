@@ -1,0 +1,39 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+  }
+  
+  input,
+  textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .requestbtn {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .requestbtn:hover {
+    background-color:  rgb(241,90,37);
+  }
+  
+  .error {
+    color: red;
+  }

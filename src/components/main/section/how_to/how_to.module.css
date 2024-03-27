@@ -1,0 +1,94 @@
+.how_to_container{
+    /* position: relative; */
+    /* top: 20rem; */
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(248,246,242);
+}
+
+.head_text{
+    position: relative;
+    top: 5rem;
+    text-align: center;
+}
+
+.head_text .h4{
+    color: #f15a25;
+}
+
+.head_text h1{
+    color: black;
+}
+
+.big_container{
+    left: 5.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+
+
+    width: 100%;
+}
+
+.inner_container{
+    position: relative;
+    top: -6rem;
+    width: 100%;
+    /* display: flex; */
+    /* display: inline-block; */
+}
+
+.circle {
+    position: relative;
+    left: 3rem;
+    top: 9rem;
+    height: 170px;
+    width: 170px;
+    background-color: #f15a25;
+    border-radius: 50%;
+    /* display: inline-block; */
+}
+
+.circle_inner{
+    height: 60px;
+    width: 60px;
+    background-color: #bbb;
+    border-radius: 50%;
+
+}
+
+.circle_inner h1{
+    position: relative;
+    text-align: center;
+    top: 0.8rem;
+    font-size: 25px;
+}
+
+.iner_img{
+    position: relative;
+    left: 6rem;
+    top: 17.4rem;
+    z-index: 1;
+}
+
+.hr{
+    position: relative;
+    top: 10rem;
+    left: 1.5rem;
+    width: 50%;
+    border: solid 2px #f15a25;
+}
+
+.h3{
+    position: relative;
+    top: 12rem;
+    left: 1.5rem;
+    width: 100%;
+    color: black;
+    /* text-align: center; */
+
+}
